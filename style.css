@@ -1,0 +1,66 @@
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+}
+/*-----------------------------------------
+Общие настройки
+-----------------------------------------*/
+
+.clear{
+	width: 0;
+	height: 0;
+	display: block;
+	position: relative;
+	clear: both;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.yellow{
+	color: #fff51f;
+
+}
+section{
+	position: relative;
+}
+
+.content-wr{
+	position: relative;
+	width: 1170px;
+	margin: 0 auto;
+}
+/*-----------------------------------------
+Настройки header
+-----------------------------------------*/
+
+#header-section{
+	min-height: 100vh;
+	background-color: #abeafa;
+
+}
+  #header-section>.content-wr{
+		min-height:inherit;
+
+	}
+
+  #header-section>.flex{
+	flex-direction: column;
+	justify-content: space-between;
+}
+ #logo{
+	 display: block;
+	 position: relative;
+	 width: 125px;
+	 height: 128px;
+	 background: url("img/logo.png") no-repeat center;
+	 background-size: contain;
+	 text-decoration: none;
+ }
+ 
